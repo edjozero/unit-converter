@@ -10,7 +10,28 @@
   </head>
 
   <body>
+    <div id="container">
+      <div id="input-section">
+        <h1>Metric/Imperial Unit Conversion</h1>
+        <input type="text">
+        <button type="submit">Convert</button>
+      </div>
 
+      <div id="conversion-results">
+        <div class="result-sections">
+          <h3>Length (Meter/Feet)</h3>
+          <p id="meter_result"></p>
+        </div>
+        <div class="result-sections">
+          <h3>Volume (Liters/Gallons)</h3>
+          <p id="volume_result"></p>
+        </div>
+        <div class="result-sections">
+          <h3>Mass (Kilograms/Pounds)</h3>
+          <p id="mass_result"></p>
+        </div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
