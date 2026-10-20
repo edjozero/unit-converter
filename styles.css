@@ -75,7 +75,12 @@ h1, h2, h3, h4, h5, h6 {
 #conversion-results{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
+}
+
+.result-sections{
   background-color: #fff;
+  padding: 10px 90px;
+  margin: 20px 10px;
 }
