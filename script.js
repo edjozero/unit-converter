@@ -21,6 +21,37 @@ const volume_result = document.getElementById('volume_result');
 const mass_result = document.getElementById('mass_result');
 
 /* 
+FUNCTIONS
+*/
+
+// Meters/Feet functions
+function metersToFeet(input){
+    return input * 3.281;
+}
+
+function feetToMeters(input){
+    return input * 0.3048;
+}
+
+// Liters/Gallons functions
+function litersToGallons (input) {
+    return input * 0.264;
+}
+
+function gallonsToLiters (input) {
+    return input * 3.78541;
+}
+
+// Kilo/Pounds functions
+function kiloToPounds (input) {
+    return input * 2.204;
+}
+
+function poundsToKilo (input) {
+    return input * 0.45359237;
+}
+
+/* 
 LISTENER
 */
 
