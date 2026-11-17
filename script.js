@@ -55,3 +55,12 @@ function poundsToKilo (input) {
 LISTENER
 */
 
+convertBtn.addEventListener('click', () => {
+    let value = userInput.value;
+
+    // meter result
+    let feet = metersToFeet(value).toFixed(3);
+    let meters = feetToMeters(value).toFixed(3);
+
+    meterResult.textContent = `${value} meters = ${feet} feet | ${value} feet = ${meters} meters`;
+});
