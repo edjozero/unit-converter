@@ -81,9 +81,21 @@ h1, h2, h3, h4, h5, h6 {
 
 #input-value{
   max-width: 80px;
-  width: fit-content;
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
+  background-color: #7161ef;
+  border: 2px solid #fff;
+  color: #fff;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+
+#convert-btn{
+  padding: 5px 10px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  cursor: pointer;
 }
 
 .result-sections{
